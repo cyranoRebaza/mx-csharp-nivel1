@@ -30,7 +30,7 @@ ejercicios prácticos y buenas prácticas de organización, versionado y documen
 
 ```txt
 mx-csharp-nivel1/
-├── docs/              # Guías técnicas (setup, herramientas, workflow)
+├── docs/              # Guías técnicas (setup, workflow)
 ├── 01-teoria/         # Teoría y apuntes organizados por unidad
 ├── 02-ejercicios/     # Ejercicios prácticos (un proyecto por ejercicio)
 ├── README.md
