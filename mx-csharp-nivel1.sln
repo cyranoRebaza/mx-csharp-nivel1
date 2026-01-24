@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-teoria", "01-teoria", "{348A8E42-9342-40A7-A673-2FADE49E7900}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "unidad-01", "unidad-01", "{AC9B2454-B5E2-40C2-B82F-E966651909EB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "08-holaMundo", "08-holaMundo", "{64ACA41C-9BE4-4BD5-999D-FA2AF5A9F01D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "U01_T08_HolaMundo", "01-teoria\unidad-01\08-holaMundo\U01_T08_HolaMundo\U01_T08_HolaMundo.csproj", "{A0D4584F-D1CC-4C4D-822A-702D0B66E3BE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A0D4584F-D1CC-4C4D-822A-702D0B66E3BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0D4584F-D1CC-4C4D-822A-702D0B66E3BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0D4584F-D1CC-4C4D-822A-702D0B66E3BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0D4584F-D1CC-4C4D-822A-702D0B66E3BE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AC9B2454-B5E2-40C2-B82F-E966651909EB} = {348A8E42-9342-40A7-A673-2FADE49E7900}
+		{64ACA41C-9BE4-4BD5-999D-FA2AF5A9F01D} = {AC9B2454-B5E2-40C2-B82F-E966651909EB}
+		{A0D4584F-D1CC-4C4D-822A-702D0B66E3BE} = {64ACA41C-9BE4-4BD5-999D-FA2AF5A9F01D}
+	EndGlobalSection
+EndGlobal
