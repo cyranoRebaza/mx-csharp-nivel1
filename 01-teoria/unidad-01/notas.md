@@ -5,7 +5,7 @@
 ### usando `-n`
 
 ```bash
-dotnet new console -n NombreProyecto
+dotnet new console -n NombreProyecto --use-program-main
 
 ```
 
