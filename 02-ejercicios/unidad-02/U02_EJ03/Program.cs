@@ -14,7 +14,25 @@ namespace U02_EJ03
 
              */
 
+            // Declaracion variables
+            int anioActual;
+            int anioNacimiento;
+            int edad;
 
+            // Pedir datos
+            Console.Write("Ingrese el anio actual: ");
+            anioActual = int.Parse(Console.ReadLine());
+
+            Console.Write("Ingrese el anio de nacimiento: ");
+            anioNacimiento = int.Parse(Console.ReadLine());
+
+            // Calcular
+            edad = anioActual - anioNacimiento;
+
+            // Mostrar
+            Console.WriteLine($"La edad es: {edad}");
+
+            Console.ReadKey();
         }
     }
 
