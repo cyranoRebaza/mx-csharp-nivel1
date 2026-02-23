@@ -49,7 +49,7 @@ namespace U06_EJ03
             do
             {
                 Console.Write("Ingrese el peso de la encomienda: ");
-                pesoEncomienda = int.Parse(Console.ReadLine());
+                pesoEncomienda = int.Parse(Console.ReadLine()!);
 
                 if (pesoEncomienda > 200)
                 {
@@ -80,7 +80,7 @@ namespace U06_EJ03
                     cantidadEncomiendas++;
 
                     Console.Write("Ingrese el peso de la encomienda: ");
-                    pesoEncomienda = int.Parse(Console.ReadLine());
+                    pesoEncomienda = int.Parse(Console.ReadLine()!);
                 }
 
                 // punto a)
